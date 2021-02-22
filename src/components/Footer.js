@@ -1,5 +1,8 @@
 import React from 'react';
 import config from '../../config';
+
+let year = new Date().getFullYear();
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -15,12 +18,7 @@ export default function Footer() {
           );
         })}
       </ul>
-      <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
-      </ul>
+      <p className="copyright">&copy; Artmmmporium {year}</p>
     </footer>
   );
 }
