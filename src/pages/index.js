@@ -7,7 +7,9 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+import artmmmporiumLogo from '../assets/images/banner_asdf.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -16,28 +18,26 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
-            <Scroll type="id" element="one">
+            {/* <Scroll type="id" element="one">
               <a href="/#" className="button primary">
                 Explore
               </a>
-            </Scroll>
+            </Scroll> */}
           </li>
         </ul>
       </div>
       <Scroll type="id" element="one">
-        <a href="#one" className="more">
+        <a href="#three" className="more">
           Learn More
         </a>
       </Scroll>
     </section>
 
-    <section id="one" className="wrapper style1 special">
+    {/* <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Here?
           </h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
@@ -47,69 +47,16 @@ const IndexPage = () => (
             ullamcorper.
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
-    </section>
+    </section> */}
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={artmmmporiumLogo} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
+          <h2>About Me</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
             imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
@@ -117,7 +64,6 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
-
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
@@ -180,7 +126,7 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Thanks for stopping in!</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.

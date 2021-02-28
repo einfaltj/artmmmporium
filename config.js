@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Artmmmporium',
-  subHeading: 'For all your creative needs!',
+  heading: 'Madeleine Einfalt',
+  subHeading: 'Bringing your artistic vision to life',
   // social
   socialLinks: [
     {
