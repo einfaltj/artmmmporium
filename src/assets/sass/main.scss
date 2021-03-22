@@ -993,15 +993,11 @@
 			@include padding(4em, 4em, (0,0,0,2em));
 			display: block;
 			position: relative;
-			text-align: left;
-			width: 50%;
+			text-align: center;
+			width: 100%;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
-
-				&:nth-child(#{$i}) {
-					background-color: rgba(0,0,0, $j);
-				}
 			}
 
 			&:before {
@@ -1043,7 +1039,6 @@
 
 			@include breakpoint('<=small') {
 				@include padding(3em, 0);
-				background-color: transparent !important;
 				border-top: solid 2px _palette(border);
 				width: 100%;
 
