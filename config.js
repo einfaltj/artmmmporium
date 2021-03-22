@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
+  siteTitle: 'Artmmmporium', // <title>
+  manifestName: 'Artmmmporium',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/banner_asdf.JPG',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Artmmmporium',
-  subHeading: 'For all your creative needs!',
+  heading: 'Madeleine Einfalt',
+  subHeading: 'Bringing your artistic vision to life',
   // social
   socialLinks: [
     {
