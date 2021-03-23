@@ -36,7 +36,8 @@
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "testcafe": "^1.13.0"
   },
   "keywords": [
     "gatsby",
