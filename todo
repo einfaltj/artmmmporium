@@ -2,12 +2,16 @@
 
 - One photo/onclick opens more photos nice to have 
 
+Dev stuff: 
+- Linter / pre-commit checks with TestCafe
+- GitHub Actions? 
+- Convert to TS? 
+
 - Colors MUST 
 - Configure With Netlify deployments
 - Move artmmmporium domain over to Google Domains
 - Have/Buy `madeleineEinfalt.com`; `meinfalt.com` 
 - Need Copy
-- 
 
 - Footer : have links open new tabs
 - Menu : Have it link to elements on the single page Nice to have? 
