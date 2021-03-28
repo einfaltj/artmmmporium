@@ -1,5 +1,7 @@
 import React from 'react';
-import pic3 from '../assets/images/pic03.jpg';
+import bathroom from '../assets/images/art/bathroom.jpg'; 
+import kidMural from '../assets/images/art/kidMural.jpg'; 
+import redLeg from '../assets/images/art/redLegMural.jpg'; 
 
 export default function MuralProjects() {
   return (
@@ -8,18 +10,18 @@ export default function MuralProjects() {
         <header className="major">
           <h2>Mural Projects</h2>
         </header>
-        <ul className="features">
+        <ul className="features image fit">
           <li>
             <h3>Red Leg</h3>
-            <img src={pic3} alt="" />
+            <img src={redLeg} alt="" />
           </li>
           <li>
             <h3>Wine Vineyard</h3>
-            <img src={pic3} alt="" />
+            <img src={bathroom} alt="" />
           </li>
           <li>
             <h3>Children's Murals</h3>
-            <img src={pic3} alt="" />
+            <img src={kidMural} alt="" />
           </li>
         </ul>
       </div>

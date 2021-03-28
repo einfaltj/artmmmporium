@@ -8,7 +8,7 @@ export default function Commissions() {
         <header className="major">
           <h2>Commissions</h2>
         </header>
-        <ul className="features">
+        <ul className="features image fit">
           <li>
             <h3>Watercolors</h3>
             <img src={pic3} alt="" />

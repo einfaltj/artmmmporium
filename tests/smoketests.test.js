@@ -10,6 +10,4 @@ test('Smoketests', async t => {
 
     const logo = Selector("div[class='image']");
     await t.expect(logo.exists).ok();
-
-    await t.debug();
 });
