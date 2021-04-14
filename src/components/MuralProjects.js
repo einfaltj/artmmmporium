@@ -1,7 +1,7 @@
 import React from 'react';
 import bathroom from '../assets/images/art/bathroom.jpg'; 
 import kidMural from '../assets/images/art/kidMural.jpg'; 
-import redLeg from '../assets/images/art/redLegMural.jpg'; 
+import redLeg from '../assets/images/art/RedLegMural.jpg'; 
 
 export default function MuralProjects() {
   return (
