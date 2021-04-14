@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/banner_asdf.JPG',
+  manifestIcon: 'src/assets/images/banner_asdf.jpg',
   pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Madeleine Einfalt',
   subHeading: 'Bringing your artistic vision to life',
