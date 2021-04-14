@@ -1,5 +1,4 @@
-<!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/0ef5716f-f6b9-4690-828c-7bf96df6bebe/deploy-status)](https://app.netlify.com/sites/jeinfalt/deploys) -->
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c9c93eef-6863-40bc-850e-91ba0aca3365/deploy-status)](https://app.netlify.com/sites/artmmmporium/deploys)
 # Artmmmporium's Website
 Built using Gatsby and Netlify
 
