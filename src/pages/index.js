@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import MuralProjects from '../components/MuralProjects';
+import ContactForm from '../components/ContactForm';
 
 import artmmmporiumLogo from '../assets/images/banner_asdf.jpg';
 import config from '../../config';
@@ -68,7 +69,7 @@ const IndexPage = () => (
     <Commissions />
     <MuralProjects />
 
-    <section id="cta" className="wrapper style4">
+    {/* <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
           <h2>Thanks for stopping in!</h2>
@@ -90,7 +91,8 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-    </section>
+    </section> */}
+    <ContactForm />
   </Layout>
 );
 
