@@ -64,8 +64,8 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
-    <MuralProjects />
     <Commissions />
+    <MuralProjects />
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
