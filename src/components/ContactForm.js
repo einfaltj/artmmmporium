@@ -36,17 +36,17 @@ export default function ContactForm() {
         method="POST"
         action="/thanks/"
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
+        // data-netlify-honeypot="bot-field"
         data-netlify-recaptcha="true"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
-        <p hidden>
+        {/* <p hidden>
           <label>
             Don’t fill this out:{' '}
             <input name="bot-field" onChange={handleChange} />
           </label>
-        </p>
+        </p> */}
         <p>
           <label>
             Your Name: <input type="text" name="name" onChange={handleChange} />
@@ -69,7 +69,7 @@ export default function ContactForm() {
             Subject: <textarea name="message"></textarea>
           </label>
         </p>
-        <div data-netlify-recaptcha="true" />
+        <div data-netlify-recaptcha="true"></div>
         <p>
           <button type="submit">Send</button>
         </p>
