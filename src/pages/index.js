@@ -54,10 +54,12 @@ const IndexPage = () => (
           <img src={artmmmporiumLogo} alt="" />
         </div>
         <div className="content">
-          <h2>About Me</h2>
+          <h2>About the artist:</h2>
           <p>
-            COS based, available in the Front Range area for murals and
-            commissions.
+            Madeleine is a self-taught artist residing in Colorado Springs, CO. 
+            She is married to Jesse, brilliant IT professional, and they have two young children. 
+            When not with her energetic children, Madeleine enjoys reading, gardening and, of course, art! 
+            She is available for commissions and mural work along the Front Range area. 
           </p>
         </div>
       </section>
