@@ -40,7 +40,7 @@ export default function ContactForm() {
         data-netlify-recaptcha="true"
         onSubmit={handleSubmit}
       >
-        <input type="hidden" name="contact" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
         <p hidden>
           <label>
             Don’t fill this out:{' '}
