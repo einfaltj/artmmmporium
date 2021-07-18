@@ -1,7 +1,10 @@
 import React from 'react';
-import bathroom from '../assets/images/art/bathroom.jpg';
+
+import wine from '../assets/images/art/murals/wine_vinyard.jpeg';
+import mural from '../assets/images/art/murals/mural.jpg';
 import kidMural from '../assets/images/art/kidMural.jpg';
-import redLeg from '../assets/images/art/RedLegMural.jpg';
+import redLeg_old from '../assets/images/art/RedLegMural.jpg';
+import redleg from '../assets/images/art/murals/redleg.jpg';
 
 export default function MuralProjects() {
   return (
@@ -18,14 +21,19 @@ export default function MuralProjects() {
             or a decorative accent to highlight your personality, a mural is a
             fantastic way to :
           </p>
-          <div className="">
-            <ul>- Create a soothing harmonious environment</ul>
-            <ul>- Highlight your company’s values or brand</ul>
-            <ul>- Energize a boring workspace</ul>
-            <ul>- Bring imagination and fun to children’s rooms</ul>
-            <ul>- Create maximum impact in a gripping affordable way</ul>
-          </div>
-          <h2>Why choose me as your muralist?</h2>
+          <br></br>
+          <p>
+            Create a soothing harmonious environment
+          <br></br>
+            Highlight your company’s values or brand 
+          <br></br>
+            Energize a boring workspace 
+          <br></br>
+            Bring imagination and fun to children’s rooms
+          <br></br>
+            Create maximum impact in a gripping affordable way
+          </p>
+          {/* <h2>Why choose me as your muralist?</h2>
           <p>
             One of my strengths is my ability to work with my clients to bring
             their unique visions to life. I’m great at reading between the
@@ -36,22 +44,33 @@ export default function MuralProjects() {
             have a project that’s been in your mind, contact me and let’s get
             the ball rolling on bringing your unique vision to life!
           </p>
-          <p>(quote from mural client, perhaps Todd)</p>
+          <p>(quote from mural client, perhaps Todd)</p> */}
         </header>
         <ul className="features image fit">
+          {/* <li>
+            <h3>Red Leg</h3>
+            <img src={redleg} alt="" />
+          </li>
           <li>
             <h3>Red Leg</h3>
-            <img src={redLeg} alt="" />
-          </li>
+            <h5>(On Forge Road)</h5>
+            <img src={redLeg_old} alt="" />
+          </li> */}
           <li>
-            <h3>Wine Vineyard</h3>
-            <img src={bathroom} alt="" />
-          </li>
-          <li>
-            <h3>Children's Murals</h3>
-            <img src={kidMural} alt="" />
+            {/* <h3>Wine Vineyard</h3> */}
+            <img src={mural} alt="" />
           </li>
         </ul>
+
+        <div className="inner">
+          <ul className="actions stacked">
+            <li>
+              <a href="/#" className="button fit">
+                Wanna learn how it's done?
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );

@@ -6,6 +6,7 @@ import MuralProjects from '../components/MuralProjects';
 import ContactForm from '../components/ContactForm';
 
 import artmmmporiumLogo from '../assets/images/banner_asdf.jpg';
+import aboutMe from '../assets/images/About_me.jpg';
 import config from '../../config';
 import Commissions from '../components/Commissions';
 
@@ -13,8 +14,11 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h2>{"Madeleine Einfalt"}</h2>
+        <p>{"Bringing your artistic vision to life"}</p>
+        {/* <div className="image">
+          <img src={artmmmporiumLogo} alt="" />
+        </div> */}
         <ul className="actions special">
           <li>
             {/* <Scroll type="id" element="one">
@@ -52,7 +56,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={artmmmporiumLogo} alt="" />
+          <img src={aboutMe} alt="" />
         </div>
         <div className="content">
           <h2>About the artist:</h2>
@@ -66,19 +70,18 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
-    <Commissions />
     <MuralProjects />
+    <Commissions />
 
-    {/* <section id="cta" className="wrapper style4">
+    <section id="cta" className="wrapper style4 special">
       <div className="inner">
         <header>
           <h2>Thanks for stopping in!</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+            Have any questions? Fill out the form below!
           </p>
         </header>
-        <ul className="actions stacked">
+        {/* <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
               Activate
@@ -89,9 +92,9 @@ const IndexPage = () => (
               Learn More
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
-    </section> */}
+    </section>
     <ContactForm />
   </Layout>
 );
