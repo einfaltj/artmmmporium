@@ -15,7 +15,7 @@ export default function ContactForm() {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
-  const sitekey = process.env.GATSBY_RECAPTCHA_KEY;
+  const sitekey = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 
   const handleSubmit = e => {
     e.preventDefault();
