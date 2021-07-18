@@ -13,7 +13,6 @@ export default function ContactForm() {
 
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value });
-    console.log(state);
   };
 
   const sitekey = process.env.GATSBY_SITE_RECAPTCHA_KEY;
@@ -80,8 +79,7 @@ export default function ContactForm() {
             sitekey={sitekey}
             theme="dark"
             onChange={(val) => {
-              console.log(val);
-              setState(val)
+              setState({ ...state, 'g-recaptcha-response': val})
             }}
           />
         </label>
