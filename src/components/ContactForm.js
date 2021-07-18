@@ -25,6 +25,7 @@ export default function ContactForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
+        'g-recaptcha': sitekey,
         ...state,
       }),
     })
@@ -69,7 +70,8 @@ export default function ContactForm() {
         </p>
         <p>
           <label>
-            Subject: <textarea name="message" onChange={handleChange}></textarea>
+            Subject:{' '}
+            <textarea name="message" onChange={handleChange}></textarea>
           </label>
         </p>
         <label>
@@ -78,8 +80,8 @@ export default function ContactForm() {
             // ref={captchaRef}
             sitekey={sitekey}
             theme="dark"
-            onChange={(val) => {
-              setState({ ...state, 'g-recaptcha-response': val})
+            onChange={val => {
+              setState({ ...state, 'g-recaptcha-response': val });
             }}
           />
         </label>
