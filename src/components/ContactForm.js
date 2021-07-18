@@ -1,5 +1,6 @@
 import { navigate } from 'gatsby';
 import React from 'react';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 function encode(data) {
   return Object.keys(data)
@@ -13,6 +14,8 @@ export default function ContactForm() {
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value });
   };
+
+  const sitekey = process.env.GATSBY_RECAPTCHA_KEY;
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -36,17 +39,17 @@ export default function ContactForm() {
         method="POST"
         action="/thanks/"
         data-netlify="true"
-        // data-netlify-honeypot="bot-field"
+        data-netlify-honeypot="bot-field"
         data-netlify-recaptcha="true"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
-        {/* <p hidden>
+        <p hidden>
           <label>
             Don’t fill this out:{' '}
             <input name="bot-field" onChange={handleChange} />
           </label>
-        </p> */}
+        </p>
         <p>
           <label>
             Your Name: <input type="text" name="name" onChange={handleChange} />
@@ -69,7 +72,9 @@ export default function ContactForm() {
             Subject: <textarea name="message"></textarea>
           </label>
         </p>
-        <div data-netlify-recaptcha="true"></div>
+        <label>
+          <ReCAPTCHA sitekey={sitekey} theme="dark" />
+        </label>
         <p>
           <button type="submit">Send</button>
         </p>
