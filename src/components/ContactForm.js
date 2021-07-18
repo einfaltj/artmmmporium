@@ -15,7 +15,7 @@ export default function ContactForm() {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
-  const sitekey = process.env.GATSBY_SITE_RECAPTCHA_KEY;
+  // const sitekey = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -25,7 +25,7 @@ export default function ContactForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        'g-recaptcha': sitekey,
+        // 'g-recaptcha': sitekey,
         ...state,
       }),
     })
@@ -41,7 +41,7 @@ export default function ContactForm() {
         action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        data-netlify-recaptcha="true"
+        // data-netlify-recaptcha="true"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
@@ -74,7 +74,7 @@ export default function ContactForm() {
             <textarea name="message" onChange={handleChange}></textarea>
           </label>
         </p>
-        <label>
+        {/* <label>
           <ReCAPTCHA
             name="g-recaptcha-response"
             // ref={captchaRef}
@@ -84,7 +84,7 @@ export default function ContactForm() {
               setState({ ...state, 'g-recaptcha-response': val });
             }}
           />
-        </label>
+        </label> */}
         <p>
           <button type="submit">Send</button>
         </p>
