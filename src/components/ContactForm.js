@@ -70,15 +70,19 @@ export default function ContactForm() {
         </p>
         <p>
           <label>
-            Subject: <textarea name="message"></textarea>
+            Subject: <textarea name="message" onChange={handleChange}></textarea>
           </label>
         </p>
         <label>
           <ReCAPTCHA
             name="g-recaptcha-response"
+            // ref={captchaRef}
             sitekey={sitekey}
             theme="dark"
-            onChange={handleChange}
+            onChange={(val) => {
+              console.log(val);
+              setState(val)
+            }}
           />
         </label>
         <p>
