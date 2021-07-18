@@ -13,9 +13,10 @@ export default function ContactForm() {
 
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value });
+    console.log(state);
   };
 
-  const sitekey = process.env.GATSBY_RECAPTCHA_KEY;
+  const sitekey = process.env.GATSBY_SITE_RECAPTCHA_KEY;
 
   const handleSubmit = e => {
     e.preventDefault();
@@ -40,7 +41,7 @@ export default function ContactForm() {
         action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        // data-netlify-recaptcha="true"
+        data-netlify-recaptcha="true"
         onSubmit={handleSubmit}
       >
         <input type="hidden" name="form-name" value="contact" />
@@ -72,9 +73,14 @@ export default function ContactForm() {
             Subject: <textarea name="message"></textarea>
           </label>
         </p>
-        {/* <label>
-          <ReCAPTCHA sitekey={sitekey} theme="dark" />
-        </label> */}
+        <label>
+          <ReCAPTCHA
+            name="g-recaptcha-response"
+            sitekey={sitekey}
+            theme="dark"
+            onChange={handleChange}
+          />
+        </label>
         <p>
           <button type="submit">Send</button>
         </p>
