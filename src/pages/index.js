@@ -14,8 +14,8 @@ const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <h2>{"Madeleine Einfalt"}</h2>
-        <p>{"Bringing your artistic vision to life"}</p>
+        <h2>{'Madeleine Einfalt'}</h2>
+        <p>{'Bringing your artistic vision to life'}</p>
         {/* <div className="image">
           <img src={artmmmporiumLogo} alt="" />
         </div> */}
@@ -77,9 +77,7 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h2>Thanks for stopping in!</h2>
-          <p>
-            Have any questions? Fill out the form below!
-          </p>
+          <p>Have any questions? Fill out the form below!</p>
         </header>
         {/* <ul className="actions stacked">
           <li>
