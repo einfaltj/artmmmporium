@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import MuralProjects from '../components/MuralProjects';
 import ContactForm from '../components/ContactForm';
+import ContactForm2 from '../components/ContactForm2';
 
 import artmmmporiumLogo from '../assets/images/banner_asdf.jpg';
 import aboutMe from '../assets/images/About_me.jpg';
@@ -94,6 +95,7 @@ const IndexPage = () => (
       </div>
     </section>
     <ContactForm />
+    {/* <ContactForm2 /> */}
   </Layout>
 );
 

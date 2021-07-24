@@ -13,39 +13,20 @@ export default function MuralProjects() {
         <header className="major">
           <h2>Mural Projects</h2>
           <p>
-            How we think about murals is changing; we aren’t boxed in by the
-            floral scenery we used to associate with murals. Murals can be
-            decorative: a faux marble wall in a kitchen elevates the space, a
-            watercolor technique creates a youthful accent. Whether you are
-            looking for something elaborate to completely transform your space
-            or a decorative accent to highlight your personality, a mural is a
-            fantastic way to :
+            Whether you are looking for something elaborate to completely
+            transform your space or a decorative accent to highlight your
+            personality, a mural is a fantastic way to :
           </p>
           <br></br>
-          <p>
-            Create a soothing harmonious environment
-          <br></br>
-            Highlight your company’s values or brand 
-          <br></br>
-            Energize a boring workspace 
-          <br></br>
-            Bring imagination and fun to children’s rooms
-          <br></br>
-            Create maximum impact in a gripping affordable way
-          </p>
-          {/* <h2>Why choose me as your muralist?</h2>
-          <p>
-            One of my strengths is my ability to work with my clients to bring
-            their unique visions to life. I’m great at reading between the
-            lines; capturing more than my clients hoped for. I do my homework
-            and present you with a small scale painting of what the mural will
-            look like, free of charge. I’m able to work backwards also; to work
-            within a set budget to give my clients a wonderful product. If you
-            have a project that’s been in your mind, contact me and let’s get
-            the ball rolling on bringing your unique vision to life!
-          </p>
-          <p>(quote from mural client, perhaps Todd)</p> */}
+          <ul>
+            <li>Create a soothing harmonious environment</li>
+            <li>Highlight your company’s values or brand</li>
+            <li>Energize a boring workspace</li>
+            <li>Bring imagination and fun to children’s rooms</li>
+            <li>Create maximum impact in a gripping affordable way</li>
+          </ul>
         </header>
+        <div className="col-4 col-12-medium"></div>
         <ul className="features image fit">
           {/* <li>
             <h3>Red Leg</h3>
@@ -65,7 +46,7 @@ export default function MuralProjects() {
         <div className="inner">
           <ul className="actions stacked">
             <li>
-              <a href="/#" className="button fit">
+              <a href="/MuralProcess" className="button fit">
                 Wanna learn how it's done?
               </a>
             </li>
