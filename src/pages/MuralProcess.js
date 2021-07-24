@@ -41,7 +41,7 @@ const IndexPage = () => (
             <h2>Pricing</h2>
             <p>
               I charge by the sqaure foot and the amount of detail, ranging from
-              $10 to $15 a sqaure foot.
+              $10 to $15 a square foot.
             </p>
           </section>
 
