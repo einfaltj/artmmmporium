@@ -4,7 +4,6 @@ import logo from '../assets/images/banner_logo.jpg';
 import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
 
-import banner from '../assets/images/banner.jpg';
 import redleg2014 from '../assets/images/art/murals/redleg2014.jpeg';
 import winery from '../assets/images/art/murals/winery.jpeg';
 import children from '../assets/images/art/murals/childrens.jpeg';

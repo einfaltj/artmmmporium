@@ -1,10 +1,6 @@
 import React from 'react';
 
-import wine from '../assets/images/art/murals/wine_vinyard.jpeg';
 import mural from '../assets/images/art/murals/mural.jpg';
-import kidMural from '../assets/images/art/kidMural.jpg';
-import redLeg_old from '../assets/images/art/RedLegMural.jpg';
-import redleg from '../assets/images/art/murals/redleg.jpg';
 
 export default function MuralProjects() {
   return (
@@ -28,17 +24,7 @@ export default function MuralProjects() {
         </header>
         <div className="col-4 col-12-medium"></div>
         <ul className="features image fit">
-          {/* <li>
-            <h3>Red Leg</h3>
-            <img src={redleg} alt="" />
-          </li>
           <li>
-            <h3>Red Leg</h3>
-            <h5>(On Forge Road)</h5>
-            <img src={redLeg_old} alt="" />
-          </li> */}
-          <li>
-            {/* <h3>Wine Vineyard</h3> */}
             <img src={mural} alt="" />
           </li>
         </ul>
