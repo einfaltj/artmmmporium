@@ -1,10 +1,6 @@
 import React from 'react';
 
-import wine from '../assets/images/art/murals/wine_vinyard.jpeg';
 import mural from '../assets/images/art/murals/mural.jpg';
-import kidMural from '../assets/images/art/kidMural.jpg';
-import redLeg_old from '../assets/images/art/RedLegMural.jpg';
-import redleg from '../assets/images/art/murals/redleg.jpg';
 
 export default function MuralProjects() {
   return (
