@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 
 import banner from '../assets/images/banner.jpg';
 import ContactForm from '../components/ContactForm';
+import RedLegPictures from '../components/RedLegPictures';
 
 const IndexPage = () => (
   <Layout>
@@ -62,14 +63,20 @@ const IndexPage = () => (
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
-                    <img src={banner} alt="" />
                   </span>
                 </div>
               </div>
             </div>
           </section>
+          <section>
+            {/* <section id="three" className="wrapper style4 special">
+              <div className="inner"> */}
+            {/* </div>
+            </section> */}
+          </section>
         </div>
       </section>
+      <RedLegPictures />
       <ContactForm />
     </article>
   </Layout>
