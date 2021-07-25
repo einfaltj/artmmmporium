@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logo from '../assets/images/banner_logo.jpg'
+import logo from '../assets/images/banner_logo.jpg';
 import Layout from '../components/Layout';
 
 import banner from '../assets/images/banner.jpg';
@@ -15,9 +15,9 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <section>
-              <span className="image left">
-                <img src={logo} alt="" />
-              </span>
+            <span className="image left">
+              <img src={logo} alt="" />
+            </span>
             <h2>Murals By Madeleine</h2>
             <p>
               How we think about murals is changing; we aren’t boxed in by the
@@ -53,6 +53,15 @@ const IndexPage = () => (
               <div className="row gtr-50 gtr-uniform">
                 <div className="col-12">
                   <span className="image fit">
+                    <iframe
+                      width="100%"
+                      height="400"
+                      src="https://www.youtube-nocookie.com/embed/fGBbTnkljz8"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
                     <img src={banner} alt="" />
                   </span>
                 </div>
