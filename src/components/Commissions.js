@@ -17,7 +17,7 @@ export default function Commissions() {
             acrylics and oils. I am happy to work with clients who are
             long-distance and ship projects directly to them. You’d be surprised
             how affordable a personal piece of art can be…. Contact me for
-            pricing information! (Quote from a past client)
+            pricing information!
           </p>
         </header>
         <ul className="features image fit">
