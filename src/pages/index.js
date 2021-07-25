@@ -27,29 +27,12 @@ const IndexPage = () => (
           </li>
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#three" className="more">
+      <Scroll type="id" element="two">
+        <a href="#two" className="more">
           Learn More
         </a>
       </Scroll>
     </section>
-
-    {/* <section id="one" className="wrapper style1 special">
-      <div className="inner">
-        <header className="major">
-          <h2>
-            Here?
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
-        </header>
-      </div>
-    </section> */}
 
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
