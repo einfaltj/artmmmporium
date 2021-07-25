@@ -24,17 +24,7 @@ export default function MuralProjects() {
         </header>
         <div className="col-4 col-12-medium"></div>
         <ul className="features image fit">
-          {/* <li>
-            <h3>Red Leg</h3>
-            <img src={redleg} alt="" />
-          </li>
           <li>
-            <h3>Red Leg</h3>
-            <h5>(On Forge Road)</h5>
-            <img src={redLeg_old} alt="" />
-          </li> */}
-          <li>
-            {/* <h3>Wine Vineyard</h3> */}
             <img src={mural} alt="" />
           </li>
         </ul>
