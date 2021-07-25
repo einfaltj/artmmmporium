@@ -2,9 +2,12 @@ import React from 'react';
 
 import logo from '../assets/images/banner_logo.jpg';
 import Layout from '../components/Layout';
+import ContactForm from '../components/ContactForm';
 
 import banner from '../assets/images/banner.jpg';
-import ContactForm from '../components/ContactForm';
+import redleg2014 from '../assets/images/art/murals/redleg2014.jpeg';
+import winery from '../assets/images/art/murals/winery.jpeg';
+import children from '../assets/images/art/murals/childrens.jpeg';
 
 const IndexPage = () => (
   <Layout>
@@ -62,10 +65,36 @@ const IndexPage = () => (
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen
                     ></iframe>
-                    <img src={banner} alt="" />
                   </span>
                 </div>
               </div>
+            </div>
+            <ul className="features image fit">
+              <li>
+                <h3>Red Leg Mural 2014</h3>
+                <img src={redleg2014} alt="" />
+              </li>
+            </ul>
+          </section>
+          <section className="wrapper style4 special">
+            <div className="inner">
+              <header className="major">
+                <h2>Residential Murals</h2>
+              </header>
+              <ul className="features image fit">
+                <li>
+                  <h3>Winery Project</h3>
+                  <img src={winery} alt="" />
+                </li>
+                <li>
+                  <h3>Children's Playroom Mural</h3>
+                  <img src={children} alt="" />
+                </li>
+                {/* <li>
+            <h3>Stained Glass</h3>
+            <img src={pic3} alt="" />
+          </li> */}
+              </ul>
             </div>
           </section>
         </div>
