@@ -4,11 +4,8 @@ import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 import MuralProjects from '../components/MuralProjects';
 import ContactForm from '../components/ContactForm';
-import ContactForm2 from '../components/ContactForm2';
 
-import artmmmporiumLogo from '../assets/images/banner_asdf.jpg';
 import aboutMe from '../assets/images/About_me.jpg';
-import config from '../../config';
 import Commissions from '../components/Commissions';
 
 const IndexPage = () => (
@@ -80,22 +77,9 @@ const IndexPage = () => (
           <h2>Thanks for stopping in!</h2>
           <p>Have any questions? Fill out the form below!</p>
         </header>
-        {/* <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul> */}
       </div>
     </section>
     <ContactForm />
-    {/* <ContactForm2 /> */}
   </Layout>
 );
 

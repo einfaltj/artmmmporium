@@ -1,6 +1,6 @@
 import { navigate } from 'gatsby';
 import React from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+// import ReCAPTCHA from 'react-google-recaptcha';
 
 function encode(data) {
   return Object.keys(data)
@@ -51,30 +51,55 @@ export default function ContactForm() {
             <input name="bot-field" onChange={handleChange} />
           </label>
         </p>
-        <p>
-          <label>
-            Your Name: <input type="text" name="name" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Your Email:{' '}
-            <input type="email" name="email" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Subject Line:{' '}
-            <input type="text" name="subject" onChange={handleChange} />
-          </label>
-        </p>
-        <p>
-          <label>
-            Subject:{' '}
-            <textarea name="message" onChange={handleChange}></textarea>
-          </label>
-        </p>
-        {/* <label>
+        <div className="row gtr-uniform">
+          <div className="col-6 col-12-xsmall">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              defaultValue=""
+              placeholder="Name"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="col-6 col-12-xsmall">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              defaultValue=""
+              placeholder="Email"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="col-6 col-12-xsmall">
+            <input
+              type="text"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+              onChange={handleChange}
+            />
+          </div>
+          <div className="col-12">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="I want a mural that..."
+              rows="6"
+              onChange={handleChange}
+            ></textarea>
+          </div>
+          {/* <div className="col-12">
+            <select name="subject" id="subject">
+              <option value="">- Subject -</option>
+              <option value="1">Manufacturing</option>
+              <option value="1">Shipping</option>
+              <option value="1">Administration</option>
+              <option value="1">Human Resources</option>
+            </select>
+          </div> */}
+          {/* <label>
           <ReCAPTCHA
             name="g-recaptcha-response"
             // ref={captchaRef}
@@ -85,9 +110,10 @@ export default function ContactForm() {
             }}
           />
         </label> */}
-        <p>
-          <button type="submit">Send</button>
-        </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </div>
       </form>
     </section>
   );

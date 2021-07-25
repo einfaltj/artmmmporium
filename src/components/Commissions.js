@@ -1,8 +1,5 @@
 import React from 'react';
-import pic3 from '../assets/images/pic03.jpg';
-import watercolor from '../assets/images/art/watercolor_primary.jpeg';
 import mack from '../assets/images/art/portraits/mack.jpeg';
-import leaves from '../assets/images/art/landscapes/red_leaves.jpeg';
 import river from '../assets/images/art/landscapes/river_rocks.jpeg';
 import staver from '../assets/images/art/special_project/staver.jpeg';
 
