@@ -653,6 +653,15 @@
 				width: 100%;
 			}
 		}
+		&.carosel {
+			div {
+				text-align: center;
+			}
+
+			img {
+				margin: auto;
+			}
+		}
 	}
 
 /* List */

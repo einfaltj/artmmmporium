@@ -54,7 +54,6 @@
     top: 0;
     left: 0;
 
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,7 +87,9 @@
 }
 .slick-slide img
 {
-    display: block;
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
 .slick-slide.slick-loading img
 {

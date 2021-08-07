@@ -14,6 +14,7 @@ export default function RedLegPictures() {
     accessibility: true,
     adaptiveHeight: false,
     arrows: true,
+    // className: "carosel",
     // dots: true,
     // dotsClass: 'row',
     infinite: true,
@@ -23,25 +24,19 @@ export default function RedLegPictures() {
   };
   return (
     <div>
-      <link rel="stylesheet" type="text/css" href="static/slick/slick.css" />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="static/slick/slick-theme.css"
-      />
       <Slider {...settings}>
-        <div className="features image fit">
-          <img src={one} alt="" />
+        <div className="">
+          <img src={one} className='' alt="" />
         </div>
-        <div className="features image fit">
-          <img src={two} alt="" />
+        <div className="">
+          <img src={two} className='' alt="" />
         </div>
-        <div className="features image fit">
+        {/* <div className="features image fit">
           <img src={three} alt="" />
         </div>
         <div className="features image fit">
           <img src={four} alt="" />
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

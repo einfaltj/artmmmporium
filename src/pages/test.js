@@ -4,11 +4,11 @@ import Layout from '../components/Layout';
 import RedLegPictures from '../components/RedLegPictures';
 
 const IndexPage = () => (
-  <RedLegPictures />
-  //   <Layout fullMenu>
-  //     <article id="main">
-  //     </article>
-  //   </Layout>
+  <Layout fullMenu>
+    <article id="main">
+      <RedLegPictures />
+    </article>
+  </Layout>
 );
 
 export default IndexPage;
