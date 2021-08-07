@@ -5,8 +5,12 @@ import Layout from '../components/Layout';
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
-      <h1>Thank you!</h1>
-      <p>This is a custom thank you page for form submissions</p>
+      <header>
+        <h2>Thanks for reaching out!</h2>
+        <p>
+          I'll be in touch with you about your request within 1-2 business days.
+        </p>
+      </header>
     </article>
   </Layout>
 );
