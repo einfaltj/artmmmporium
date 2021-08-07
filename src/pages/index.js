@@ -10,6 +10,12 @@ import Commissions from '../components/Commissions';
 
 const IndexPage = () => (
   <Layout>
+      {/* <link rel="stylesheet" type="text/css" href="static/slick/slick.css" />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="static/slick/slick-theme.css"
+      /> */}
     <section id="banner">
       <div className="inner">
         <h2>{'Madeleine Einfalt'}</h2>
