@@ -7,16 +7,15 @@ import three from '../assets/images/art/murals/redleg2021/3.jpeg';
 import four from '../assets/images/art/murals/redleg2021/4.jpeg';
 
 import "../assets/sass/slick.css"; 
-// import "../assets/sass/slick-theme.css"; 
+import "../assets/sass/slick-theme.css"; 
 
 export default function RedLegPictures() {
   var settings = {
     accessibility: true,
-    adaptiveHeight: false,
-    arrows: true,
-    // className: "carosel",
-    // dots: true,
-    // dotsClass: 'row',
+    adaptiveHeight: true,
+    // arrows: true,
+    dots: true,
+    // dotsClass: 'flex',
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -26,17 +25,17 @@ export default function RedLegPictures() {
     <div>
       <Slider {...settings}>
         <div className="">
-          <img src={one} className='' alt="" />
+          <img src={one} alt="" />
         </div>
         <div className="">
-          <img src={two} className='' alt="" />
+          <img src={two} alt="" />
         </div>
-        {/* <div className="features image fit">
+        <div className="">
           <img src={three} alt="" />
         </div>
-        <div className="features image fit">
+        <div className="">
           <img src={four} alt="" />
-        </div> */}
+        </div>
       </Slider>
     </div>
   );
