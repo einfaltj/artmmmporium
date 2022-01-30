@@ -61,9 +61,9 @@ const IndexPage = () => (
                       height="400"
                       src="https://www.youtube-nocookie.com/embed/fGBbTnkljz8"
                       title="YouTube video player"
-                      frameborder="0"
+                      frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
+                      allowFullScreen
                     ></iframe>
                   </span>
                 </div>
@@ -73,6 +73,10 @@ const IndexPage = () => (
               <li>
                 <h3>Red Leg Mural 2014</h3>
                 <img src={redleg2014} alt="" />
+              </li>
+              <li>
+                <h3>Red Leg Mural 2021</h3>
+                <RedLegPictures />
               </li>
             </ul>
           </section>
@@ -90,22 +94,11 @@ const IndexPage = () => (
                   <h3>Children's Playroom Mural</h3>
                   <img src={children} alt="" />
                 </li>
-                {/* <li>
-            <h3>Stained Glass</h3>
-            <img src={pic3} alt="" />
-          </li> */}
               </ul>
             </div>
           </section>
-          <section>
-            {/* <section id="three" className="wrapper style4 special">
-              <div className="inner"> */}
-            {/* </div>
-            </section> */}
-          </section>
         </div>
       </section>
-      <RedLegPictures />
       <ContactForm />
     </article>
   </Layout>

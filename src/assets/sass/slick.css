@@ -52,6 +52,10 @@
 .slick-track
 {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
     top: 0;
     left: 0;
 
@@ -79,7 +83,7 @@
     display: none;
     float: left;
 
-    height: 100%;
+    height: auto;
     min-height: 1px;
 }
 [dir='rtl'] .slick-slide
